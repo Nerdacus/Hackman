@@ -41,31 +41,31 @@ up_frames = []
 down_frames = []
 
 right_frame_paths = [
-"right-frame-one.png",
-"right-frame-two.png",
-"right-frame-three.png",
-"right-frame-four.png"
+    "images/right-frame-one.png",
+    "images/right-frame-two.png",
+    "images/right-frame-three.png",
+    "images/right-frame-four.png"
 ]
 
 left_frame_paths = [
-"left-frame-one.png",
-"left-frame-two.png",
-"left-frame-three.png",
-"left-frame-four.png"
+    "images/left-frame-one.png",
+    "images/left-frame-two.png",
+    "images/left-frame-three.png",
+    "images/left-frame-four.png"
 ]
 
 up_frame_paths = [
-"up-frame-one.png",
-"up-frame-two.png",
-"up-frame-three.png",
-"up-frame-four.png"
+    "images/up-frame-one.png",
+    "images/up-frame-two.png",
+    "images/up-frame-three.png",
+    "images/up-frame-four.png"
 ]
 
 down_frame_paths = [
-"down-frame-one.png",
-"down-frame-two.png",
-"down-frame-three.png",
-"down-frame-four.png"
+    "images/down-frame-one.png",
+    "images/down-frame-two.png",
+    "images/down-frame-three.png",
+    "images/down-frame-four.png"
 ]
 
 for path in right_frame_paths:
@@ -84,12 +84,12 @@ for path in down_frame_paths:
     image = pygame.image.load(path).convert_alpha()
     down_frames.append(image)
 
-no_movement_image = pygame.image.load('no-movement.png').convert_alpha()
-terminal_image = pygame.image.load('terminal.png').convert_alpha()
-ghost1_image = pygame.image.load('ghost1.png').convert_alpha()
-ghost2_image = pygame.image.load('ghost2.png').convert_alpha()
-ghost3_image = pygame.image.load('ghost3.png').convert_alpha()
-ghost4_image = pygame.image.load('ghost4.png').convert_alpha()
+no_movement_image = pygame.image.load('images/no-movement.png').convert_alpha()
+terminal_image = pygame.image.load('images/terminal.png').convert_alpha()
+ghost1_image = pygame.image.load('images/ghost1.png').convert_alpha()
+ghost2_image = pygame.image.load('images/ghost2.png').convert_alpha()
+ghost3_image = pygame.image.load('images/ghost3.png').convert_alpha()
+ghost4_image = pygame.image.load('images/ghost4.png').convert_alpha()
 
 initial_maze_layout = [
     "####################",
@@ -277,10 +277,10 @@ def setup_game_state(map_layout):
     hackman_old_x = hackman_x
     hackman_old_y = hackman_y
 
-mrs_hackman_right_image = pygame.image.load('mrs-hackman-right-one.png').convert_alpha()
-mrs_hackman_left_image = pygame.image.load('mrs-hackman-left.png').convert_alpha()
-mrs_hackman_down_image = pygame.image.load('mrs-hackman-down.png').convert_alpha()
-mrs_hackman_up_image = pygame.image.load('mrs-hackman-up.png').convert_alpha()
+mrs_hackman_right_image = pygame.image.load('images/mrs-hackman-right-one.png').convert_alpha()
+mrs_hackman_left_image = pygame.image.load('images/mrs-hackman-left.png').convert_alpha()
+mrs_hackman_down_image = pygame.image.load('images/mrs-hackman-down.png').convert_alpha()
+mrs_hackman_up_image = pygame.image.load('images/mrs-hackman-up.png').convert_alpha()
 
 mrs_hackman_x = 60
 mrs_hackman_y = 60
