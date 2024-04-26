@@ -18,11 +18,11 @@ In Hack-Man, the player controls Hack-Man, a character who must navigate through
 To run the game, you need [Python](https://www.python.org/) and the [Pygame](https://www.pygame.org/) library installed on your system. You can install Pygame using pip:
 pip install pygame
 
-Controls
+## Controls
 Use the arrow keys to move the character. Press the spacebar to interact with the terminal and "hack" it.
 
-Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute to this project, feel free to submit a pull request.
 
-License
+## License
 This project is licensed under the [MIT License](LICENSE).
