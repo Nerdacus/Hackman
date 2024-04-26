@@ -1,6 +1,6 @@
 # Hack-Man Game
 
-Hack-Man is a Pac-Man influenced arcade-style game developed using Python and the [Pygame](https://www.pygame.org/) library for CMPS 455 Fall 2023.
+Hack-Man is a Pac-Man influenced arcade-style game developed using [Python](https://www.python.org/) and the [Pygame](https://www.pygame.org/) library for CMPS 455 Fall 2023.
 
 ## Description
 
@@ -15,7 +15,7 @@ In Hack-Man, the player controls Hack-Man, a character who must navigate through
 
 ## Installation
 
-To run the game, you need [Python](https://www.python.org/) and the Pygame library installed on your system. You can install Pygame using pip:
+To run the game, you need [Python](https://www.python.org/) and the [Pygame](https://www.pygame.org/) library installed on your system. You can install Pygame using pip:
 pip install pygame
 
 Controls
